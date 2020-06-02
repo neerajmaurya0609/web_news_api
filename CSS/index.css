@@ -1,0 +1,55 @@
+@import url("https://pro.fontawesome.com/releases/v5.0.10/css/all.css");
+
+.articlesContent{    
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    padding: 8px;
+    font-size: 14px;    
+}
+ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#sportsSection{
+    border-right: 1px solid #ccc; 
+    background: #fff;
+    box-shadow: 1px 1px 3px 1px #ccc;
+}
+#sportsFirstTemplate img{
+    height: 100%;
+    width: 100%;
+}
+
+#entertainmentFirstTemplate img{
+    height: 100%;
+    width: 100%;
+}
+#entertainmentSection{    
+    border-right: 1px solid #ccc; 
+    background: #fff;
+    box-shadow: 1px 1px 3px 1px #ccc;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+#covidBlock section{
+    display: flex;
+}
+.list{
+    display: flex;
+}
+#covidBlock section div{
+    padding: 5px;
+    margin: 2px;
+    border-radius: 2px;
+    background-color: #ccc;
+}

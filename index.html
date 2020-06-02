@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>NEWS API</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="/CSS/index.css" />
+	</head>
+	<body>     
+      <div id="navbarNav" class="navbar navbar-expand-sm navbar-light bg-light">
+        <ul class="navbar-nav">
+          <li class="nav-item bg-danger">
+            <h5 class="p-2 text-white">Corona Details</h5>            
+            <li class="nav-item list ">
+              <span class="p-2 font-weight-bold">Global</span>
+              <a href="_link" id="covidBlock"></a>
+
+            </li>
+          </li>
+        </ul>
+      </div>
+      <article id="container-fluid">
+        <div class="articlesContent">
+          <div class="row">
+              <div class="col-md-3">
+                <h4 class="p-2 border-bottom text-white font-weight-bold bg-primary text-uppercase">SPORTS</h4>
+                  <div id="sportsSection">
+                    <div id="sportsFirstTemplate"></div>
+                    <div id="sportsAllTemplate"></div>
+              </div> 
+              </div>
+              <!--weather block-->
+              <div class="col-md-5">
+                <form action="">
+                  <h5 class="p-2 border-bottom text-white font-weight-bold bg-secondary text-uppercase">Search for weather</h5>
+                  <input type="text" class="form-control" id="input" placeholder="enter your city name">
+                </form>
+                <form >
+                  <div id="weatherDetails">
+                  </div>                   
+                </form>
+              </div>
+              <div class="col-md-3">
+                <h4 class="p-2 border-bottom text-white font-weight-bold bg-primary text-uppercase">ENTERTAINMENT</h4>
+                <div id="entertainmentSection">
+                  <div id="entertainmentFirstTemplate"></div>
+                  <div id="entertainmentAllTemplate"></div>
+                </div>           
+              </div>
+          </div>            
+        </div>        
+      </article>
+      
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="/JS/covid_19.js"></script>
+    <script src="/JS/index.js"></script>
+    <script src="/JS/weather_api.js"></script>
+    <script src="/JS/github_api.js"></script>    
+	</body>
+</html>
